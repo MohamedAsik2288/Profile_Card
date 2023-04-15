@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+    width: 20em;
+    background-color: rgba(255, 255, 255, 255);
+overflow: hidden;
+border-radius: 1em;
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 16px;
+margin: 200px auto 0px auto;
+}
+.user-image{
+    padding: 3em 0 ;
+    background-image: linear-gradient(70deg,#61a1dd,#0083fD);
+}
+
+.user-image img{
+    width: 7em ;
+    height: 7em;
+    border-radius: 50%;
+   box-shadow:0 0.5em  1.6em  black;
+   object-fit:cover;
+}
+
+
+
+
+.content{
+    background-color: ghostwhite;
+    color:#565656;
+    
+    padding: 2.1em;
+}
+.name{
+    font-size: 1.5em;
+text-transform: capitalize;
+
+}
+.name:hover{
+    color: #4F200D;
+}
+
+.username{
+    font-size:1em;
+    color: #9e9e9e;
+}
+
+.username:hover{ 
+    color: #4F200D;
+}
+
+
+.links{
+    margin: 1.5em  0;
+}
+a{
+    text-decoration: none;
+    color: #565656;
+    font-size: 2em;
+    margin:0.290 em;
+    padding: 0.25em;
+}
+
+a:last-child {
+    margin: 0;
+}
+
+
+.details{
+    margin-bottom: 1.8em;
+    font-size: 1.5em;
+    color:#565656;
+}
+
+.details:hover {
+    color: #4F200D;
+}
+
+.effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+   color: rgb(48,41,41);
+   text-transform: capitalize;
+   width: 100%;
+   background-image: linear-gradient(70deg,#61a1dd,#0083fD);
+   font-size: 1.2em;
+   padding: 1em 3em;
+   border-radius: 5em;
+   overflow: hidden;
+}
+
+.effect:hover{
+    color: white;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.facebook:hover {
+    color: #3b5998;
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+.git:hover {
+    color: #171515;
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+.linkedin:hover {
+    color: #0072b1;
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+.insta:hover {
+    color:#EA5455 ;
+    transform: scale(2);
+    transition: 0.5s;
+    opacity: 1.1;
+  
+}
+
+.effect.effect-4::before {
+    content:icon;
+    position:absolute;
+    top:20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    transform: scale(0,1);
+   
+}
+
+.effect.effect-4::before {
+  text-indent: -9999px;
+}
+.effect.effect-4:hover:before{
+    transform: scale(1,1);
+    text-indent: 0;
+}
+
